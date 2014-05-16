@@ -23,5 +23,6 @@
 		<em:name>MouseMarks</em:name>
 		<em:description>Functionalizes the bookmarks toolbar to increase capacity. Group and launch individual bookmarks with different mouse buttons.</em:description>
 		<em:creator>Noitidart</em:creator>
+		<em:contributor>difabor</em:contributor>
 	  </Description>
 	</RDF>
