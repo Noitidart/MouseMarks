@@ -2,10 +2,13 @@
   display:none !important;
 }
 
-#PlacesToolbar .bookmark-item .toolbarbutton-icon {
+#PlacesToolbar .bookmark-item .toolbarbutton-icon {	
   -moz-margin-end:0 !important;
 }
 
+#PlacesToolbarItems {
+	margin: 0 3px 3px 3px;
+}
 
 #PlacesToolbar .bookmark-item {
 border-bottom-color: rgb(0, 0, 0) !important;
@@ -16,50 +19,50 @@ border-right-color: rgb(0, 0, 0) !important;
 border-right-style: none !important;
 border-top-color: rgb(0, 0, 0) !important;
 border-top-style: none !important;
-height: 40px !important;
-list-style-image: url("chrome://browser/skin/Toolbar.png") !important;
-max-width: none !important;
+/*height: 40px !important;*/
+/*list-style-image: url("chrome://browser/skin/Toolbar.png") !important;*/
+/*max-width: none !important;*/
 padding-bottom: 8px !important;
 padding-left: 2px !important;
 padding-right: 2px !important;
 padding-top: 8px !important;
-perspective-origin: 18px 20px !important;
-transform-origin: 18px 20px !important;
-width: 36px !important;
+/*perspective-origin: 18px 20px !important;*/
+/*transform-origin: 18px 20px !important;*/
+/*width: 36px !important;*/
 -moz-appearance: none !important;
--moz-image-region: rect(0px, 126px, 18px, 108px) !important;
+/*-moz-image-region: rect(0px, 126px, 18px, 108px) !important;*/
 }
-#PlacesToolbar .bookmark-item .toolbarbutton-icon {
+#PlacesToolbar .bookmark-item  {
 border-bottom-color: transparent !important;
 border-bottom-left-radius: 2px !important;
 border-bottom-right-radius: 2px !important;
 border-bottom-style: solid !important;
-border-bottom-width: 1px !important;
+/*border-bottom-width: 1px !important;*/
 border-left-color: transparent !important;
 border-left-style: solid !important;
-border-left-width: 1px !important;
+/*border-left-width: 1px !important;*/
 border-right-color: transparent !important;
 border-right-style: solid !important;
-border-right-width: 1px !important;
+/*border-right-width: 1px !important;*/
 border-top-color: transparent !important;
 border-top-left-radius: 2px !important;
 border-top-right-radius: 2px !important;
 border-top-style: solid !important;
-border-top-width: 1px !important;
+/*border-top-width: 1px !important;*/
 box-shadow: transparent 0px 1px 0px 0px inset, transparent 0px 1px 0px 0px, transparent 0px 0px 2px 0px !important;
-height: 24px !important;
-list-style-image: url("chrome://browser/skin/Toolbar.png") !important;
+/*height: 24px !important;*/
+/*list-style-image: url("chrome://browser/skin/Toolbar.png") !important;*/
 margin-right: 0px !important;
 padding-bottom: 2px !important;
 padding-left: 6px !important;
 padding-right: 6px !important;
 padding-top: 2px !important;
-perspective-origin: 16px 12px !important;
-transform-origin: 16px 12px !important;
+/*perspective-origin: 16px 12px !important;*/
+/*transform-origin: 16px 12px !important;*/
 transition-duration: 0.15s !important;
 transition-property: background-color, border-color, box-shadow !important;
-width: 32px !important;
--moz-image-region: rect(0px, 126px, 18px, 108px) !important;
+/*width: 32px !important;*/
+/*-moz-image-region: rect(0px, 126px, 18px, 108px) !important;*/
 }
 
 #PlacesToolbar .bookmark-item:hover {
@@ -71,51 +74,51 @@ border-right-color: rgb(0, 0, 0) !important;
 border-right-style: none !important;
 border-top-color: rgb(0, 0, 0) !important;
 border-top-style: none !important;
-height: 40px !important;
-list-style-image: url("chrome://browser/skin/Toolbar.png") !important;
-max-width: none !important;
+/*height: 40px !important;*/
+/*list-style-image: url("chrome://browser/skin/Toolbar.png") !important;*/
+/*max-width: none !important;*/
 padding-bottom: 8px !important;
 padding-left: 2px !important;
 padding-right: 2px !important;
 padding-top: 8px !important;
-perspective-origin: 18px 20px !important;
-transform-origin: 18px 20px !important;
-width: 36px !important;
+/*perspective-origin: 18px 20px !important;*/
+/*transform-origin: 18px 20px !important;*/
+/*width: 36px !important;*/
 -moz-appearance: none !important;
--moz-image-region: rect(0px, 126px, 18px, 108px) !important;
+/*-moz-image-region: rect(0px, 126px, 18px, 108px) !important;*/
 }
-#PlacesToolbar .bookmark-item:hover .toolbarbutton-icon {
+#PlacesToolbar .bookmark-item:hover  {
 background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)) !important;
 border-bottom-color: rgba(23, 51, 78, 0.25) !important;
 border-bottom-left-radius: 2px !important;
 border-bottom-right-radius: 2px !important;
 border-bottom-style: solid !important;
-border-bottom-width: 1px !important;
+/*border-bottom-width: 1px !important;*/
 border-left-color: rgba(23, 51, 78, 0.2) !important;
 border-left-style: solid !important;
-border-left-width: 1px !important;
+/*border-left-width: 1px !important;*/
 border-right-color: rgba(23, 51, 78, 0.2) !important;
 border-right-style: solid !important;
-border-right-width: 1px !important;
+/*border-right-width: 1px !important;*/
 border-top-color: rgba(23, 51, 78, 0.15) !important;
 border-top-left-radius: 2px !important;
 border-top-right-radius: 2px !important;
 border-top-style: solid !important;
-border-top-width: 1px !important;
+/*border-top-width: 1px !important;*/
 box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0px 0px inset, rgba(23, 51, 78, 0.03) 0px 1px 0px 0px, rgba(23, 51, 78, 0.1) 0px 0px 2px 0px !important;
-height: 24px !important;
-list-style-image: url("chrome://browser/skin/Toolbar.png") !important;
+/*height: 24px !important;*/
+/*list-style-image: url("chrome://browser/skin/Toolbar.png") !important;*/
 margin-right: 0px !important;
 padding-bottom: 2px !important;
 padding-left: 6px !important;
 padding-right: 6px !important;
 padding-top: 2px !important;
-perspective-origin: 16px 12px !important;
-transform-origin: 16px 12px !important;
+/*perspective-origin: 16px 12px !important;*/
+/*transform-origin: 16px 12px !important;*/
 transition-duration: 0.15s !important;
 transition-property: background-color, border-color, box-shadow !important;
-width: 32px !important;
--moz-image-region: rect(0px, 126px, 18px, 108px) !important;
+/*width: 32px !important;*/
+/*-moz-image-region: rect(0px, 126px, 18px, 108px) !important;*/
 }
 
 #PlacesToolbar .bookmark-item:active {
@@ -127,48 +130,48 @@ border-right-color: rgb(0, 0, 0) !important;
 border-right-style: none !important;
 border-top-color: rgb(0, 0, 0) !important;
 border-top-style: none !important;
-height: 40px !important;
-list-style-image: url("chrome://browser/skin/Toolbar.png") !important;
-max-width: none !important;
+/*height: 40px !important;*/
+/*list-style-image: url("chrome://browser/skin/Toolbar.png") !important;*/
+/*max-width: none !important;*/
 padding-bottom: 8px !important;
 padding-left: 2px !important;
 padding-top: 8px !important;
-perspective-origin: 18px 20px !important;
-transform-origin: 18px 20px !important;
-width: 36px !important;
+/*perspective-origin: 18px 20px !important;*/
+/*transform-origin: 18px 20px !important;*/
+/*width: 36px !important;*/
 -moz-appearance: none !important;
--moz-image-region: rect(0px, 126px, 18px, 108px) !important;
+/*-moz-image-region: rect(0px, 126px, 18px, 108px) !important;*/
 }
-#PlacesToolbar .bookmark-item:active .toolbarbutton-icon {
+#PlacesToolbar .bookmark-item:active {
 background-color: rgba(23, 51, 78, 0.15) !important;
 background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)) !important;
 border-bottom-color: rgba(23, 51, 78, 0.4) !important;
 border-bottom-left-radius: 2px !important;
 border-bottom-right-radius: 2px !important;
 border-bottom-style: solid !important;
-border-bottom-width: 1px !important;
+/*border-bottom-width: 1px !important;*/
 border-left-color: rgba(23, 51, 78, 0.35) !important;
 border-left-style: solid !important;
-border-left-width: 1px !important;
+/*border-left-width: 1px !important;*/
 border-right-color: rgba(23, 51, 78, 0.35) !important;
 border-right-style: solid !important;
-border-right-width: 1px !important;
+/*border-right-width: 1px !important;*/
 border-top-color: rgba(23, 51, 78, 0.3) !important;
 border-top-left-radius: 2px !important;
 border-top-right-radius: 2px !important;
 border-top-style: solid !important;
-border-top-width: 1px !important;
+/*border-top-width: 1px !important;*/
 box-shadow: rgba(23, 51, 78, 0.1) 0px 1px 1px 0px inset, rgba(23, 51, 78, 0.2) 0px 0px 1px 0px inset, transparent 0px 1px 0px 0px, transparent 0px 0px 2px 0px !important;
-height: 24px !important;
-list-style-image: url("chrome://browser/skin/Toolbar.png") !important;
+/*height: 24px !important;*/
+/*list-style-image: url("chrome://browser/skin/Toolbar.png") !important;*/
 margin-right: 0px !important;
 padding-bottom: 2px !important;
 padding-left: 6px !important;
 padding-right: 6px !important;
 padding-top: 2px !important;
-perspective-origin: 16px 12px !important;
-transform-origin: 16px 12px !important;
+/*perspective-origin: 16px 12px !important;*/
+/*transform-origin: 16px 12px !important;*/
 transition-property: none, none, none !important;
-width: 32px !important;
--moz-image-region: rect(0px, 126px, 18px, 108px) !important;
+/*width: 32px !important;*/
+/*-moz-image-region: rect(0px, 126px, 18px, 108px) !important;*/
 }
