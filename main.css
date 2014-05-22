@@ -1,0 +1,31 @@
+.bookmark-item .toolbarbutton-text, .bookmark-item .toolbarbutton-multiline-text {
+  display:none !important;
+}
+
+.bookmark-item .toolbarbutton-icon {
+  -moz-margin-end:0 !important;
+}
+
+
+.bookmark-item {
+  border-bottom-color: rgb(0, 0, 0) !important;
+  border-bottom-style: none !important;
+  border-left-color: rgb(0, 0, 0) !important;
+  border-left-style: none !important !important;
+  border-right-color: rgb(0, 0, 0) !important;
+  border-right-style: none !important;
+  border-top-color: rgb(0, 0, 0) !important;
+  border-top-style: none !important;
+  height: 40px !important; /*probably remove this*/
+  list-style-image: url("chrome://browser/skin/Toolbar.png") !important; /*probably remove this*/
+  max-width: none !important; /*probably remove this*/
+  padding-bottom: 8px !important;
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+  padding-top: 8px !important;
+  perspective-origin: 18px 20px !important;
+  transform-origin: 18px 20px !important;
+  width: 36px !important;
+  -moz-appearance: none !important;
+  -moz-image-region: rect(0px, 126px, 18px, 108px) !important;
+}
