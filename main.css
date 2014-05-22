@@ -121,7 +121,8 @@ transition-property: background-color, border-color, box-shadow !important;
 /*-moz-image-region: rect(0px, 126px, 18px, 108px) !important;*/
 }
 
-#PlacesToolbar .bookmark-item:active {
+#PlacesToolbar .bookmark-item:active,
+#PlacesToolbar .bookmark-item[open] {
 border-bottom-color: rgb(0, 0, 0) !important;
 border-bottom-style: none !important;
 border-left-color: rgb(0, 0, 0) !important;
@@ -142,7 +143,8 @@ padding-top: 8px !important;
 -moz-appearance: none !important;
 /*-moz-image-region: rect(0px, 126px, 18px, 108px) !important;*/
 }
-#PlacesToolbar .bookmark-item:active {
+#PlacesToolbar .bookmark-item:active,
+#PlacesToolbar .bookmark-item[open] {
 background-color: rgba(23, 51, 78, 0.15) !important;
 background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)) !important;
 border-bottom-color: rgba(23, 51, 78, 0.4) !important;
