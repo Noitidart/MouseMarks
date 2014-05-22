@@ -18,13 +18,13 @@ XPCOMUtils.defineLazyGetter(myServices, 'sss', function(){ return Cc['@mozilla.o
 
 function startup(aData, aReason) {
 	self.aData = aData;
-	var css = '';
-	css += '.bookmark-item .toolbarbutton-text, .bookmark-item .toolbarbutton-multiline-text { display:none !important; }';
-	css += '.bookmark-item .toolbarbutton-icon { -moz-margin-end:0 !important; }';
-	var cssEnc = encodeURIComponent(css);
+	//var css = '';
+	//css += '.bookmark-item .toolbarbutton-text, .bookmark-item .toolbarbutton-multiline-text { display:none !important; }';
+	//css += '.bookmark-item .toolbarbutton-icon { -moz-margin-end:0 !important; }';
+	//var cssEnc = encodeURIComponent(css);
 	var newURIParam = {
-		//aURL: self.aData.resourceURI.spec + 'main.css', //'data:text/css,' + cssEnc,
-		aURL: 'data:text/css,' + cssEnc,
+		aURL: self.aData.resourceURI.spec + 'main.css', //'data:text/css,' + cssEnc,
+		//aURL: 'data:text/css,' + cssEnc,
 		aOriginCharset: null,
 		aBaseURI: null
 	}
