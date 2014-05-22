@@ -84,7 +84,7 @@ width: 36px !important;
 -moz-appearance: none !important;
 -moz-image-region: rect(0px, 126px, 18px, 108px) !important;
 }
-#PlacesToolbar .bookmark-item .toolbarbutton-icon:hover {
+#PlacesToolbar .bookmark-item:hover .toolbarbutton-icon {
 background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)) !important;
 border-bottom-color: rgba(23, 51, 78, 0.25) !important;
 border-bottom-left-radius: 2px !important;
@@ -139,7 +139,7 @@ width: 36px !important;
 -moz-appearance: none !important;
 -moz-image-region: rect(0px, 126px, 18px, 108px) !important;
 }
-#PlacesToolbar .bookmark-item .toolbarbutton-icon:active {
+#PlacesToolbar .bookmark-item:active .toolbarbutton-icon {
 background-color: rgba(23, 51, 78, 0.15) !important;
 background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)) !important;
 border-bottom-color: rgba(23, 51, 78, 0.4) !important;
